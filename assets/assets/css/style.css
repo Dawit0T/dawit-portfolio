@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    color: pink;
+    padding: 20 px 35 px;
+    back-ground-color: green;
+    background-position: 80%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: inline;
+  }
+
+  header a {
+      color: pink;
+  }
+
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  header ul li {
+      display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
